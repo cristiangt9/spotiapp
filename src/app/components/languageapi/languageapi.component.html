@@ -1,0 +1,12 @@
+<h3>Paises de habla Hispana</h3>
+<ul>
+    <li *ngFor="let pais of paises">
+        {{ pais.name }} - {{pais.capital}}
+    </li>
+</ul>
+<h3>Todos los paises</h3>
+<ul>
+    <li *ngFor="let capital of capitales">
+        {{ capital.name }}: {{ capital.capital }}
+    </li>
+</ul>
